@@ -1,0 +1,64 @@
+Module4
+Activity4
+Learning by doing-1
+Give the output printed by java Stack for the input (where "-" means pop)
+ it was - the best - of times - - - it was - the - -
+
+Step 1:Push "it" to stack
+	
+	it
+Step2:Push "was" to stack
+	
+	was
+	it
+Step3:Pop "was" from stack
+	
+	it
+Step4:Push "the" to stack
+	
+	the
+	it
+Step5:Push "best" to stack
+
+	best
+	the
+	it
+Step6: Pop "best" from stack
+
+	the
+	it
+Step7: Push "of" to stack
+
+	of
+	the
+	it
+Step8: Push "times" to stack
+
+	times
+	of
+	the
+	it
+Step9:Pop three Strings from stack
+	
+	it
+Step10:Push "it" to stack
+	
+	it
+	it
+Step11:Push "was" to stack
+
+	was
+	it
+	it
+Step12:Pop "was" from stack
+	
+	it
+	it
+Step13:Push "the" to stack
+
+	the 
+	it
+	it
+Step14:Pop two Strings from stack
+
+	it
