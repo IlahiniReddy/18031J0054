@@ -47,4 +47,32 @@ Sizes:
                                        32                                      7
                                                         39
 
+public static void merge(Comparable[] a, int lo, int mid, int hi) { 
 
+int i = lo, 
+
+j = mid+1; 
+
+for (int k = lo; k <= hi; k++) 
+
+aux[k] = a[k]; 
+
+for (int k = lo; k <= hi; k++) 
+
+if (i > ----- j ------)                                         //Blank 1
+
+a[k] = aux[---- j ----];                      //Blank 2
+
+else if (---- j ----- > hi )                                //Blank 3
+
+a[k] = aux[---- hi ------];                   //Blank 4
+
+else if (less(aux[--- i -----], aux[---- j ----]))   //Blank 5    //Blank 6
+
+a[k] = aux[j++]; 
+
+else 
+
+a[k] = aux[i++];
+
+ }
