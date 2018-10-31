@@ -1,0 +1,38 @@
+Blanks-1:
+
+1
+k/2
+k
+k
+k/2
+k/2
+
+Blanks-2:
+
+n
+2*k
+n
+j
+j+1
+j++
+k
+j
+k
+j
+j
+
+Blanks-3:
+
+1.Write the output of the minPQ array ?
+
+A E E I G E S S R O T M R V
+
+2.What are the child nodes for node ‘A’?
+
+Child node for A are E E
+
+3.What is the root node after deleteMin() called 5 times?
+
+G
+
+
