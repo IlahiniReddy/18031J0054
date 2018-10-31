@@ -26,3 +26,34 @@ Ans: 71,54
 
 Ans: 101,54,96,103,71,60
 
+
+Activity-5:
+
+Draw all of the different heaps that can be made from the five keys A B C D E,
+then draw all of the different heaps that can be made from the five keys A A A B B.
+
+Ans: The different heaps that can be drawn from A B C D E are as follows:
+
+A B C D E
+A B C E D
+A C B E D
+A C B D E
+A B D C E
+A B D E C
+A B E C D
+A B E D C
+E D C B A
+E C D A B
+E C D B A
+E D B A C
+E D C A B
+E D B C A
+E D A C B
+E D A B C
+
+The different heaps that can be drawn from A A A B B are:
+
+A A A B B
+A A B B A
+A A B A B
+
