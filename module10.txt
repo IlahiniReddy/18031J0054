@@ -1,0 +1,24 @@
+Quick sort:
+
+E A S Y Q U E S T I O N
+
+E=pivot
+i should be greater than pivot and j should be less than pivot
+
+A E S Y Q U E S T I O N
+
+Now S is pivot
+
+A E S N Q U E S T I O Y
+
+A E S N Q O E S T I U Y
+
+A E S N Q O E S I T U Y
+
+A E I N Q O E S S T U Y
+
+A E I E Q O N S S T U Y
+ 
+A E E I Q O N S S T U Y
+
+A E E I N O Q S S T U Y
