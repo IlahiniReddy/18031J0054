@@ -1,0 +1,50 @@
+Module-16:
+
+Fill in the blanks-1:
+
+1.Null
+2.x,key
+3.x.left
+4.x.right
+
+Fill in the blanks-2:
+
+1.Null
+2.x,key
+3.x.left,key,val
+4.x.right,key,val
+
+Fill in the blanks-3:
+
+Following the above criteria, draw a BST for the following keys (you receive keys from
+
+left to right) and answer the below questions.
+
+11, 6, 8, 19, 4, 17, 43, 49, 31
+
+1.What will be the child nodes for element 6 ?
+
+Ans: 4,8
+
+2.How many leaf nodes in the resultant tree ?
+
+Ans: 5
+
+3.How many compares (key compares) does it take to insert the last element(31) in to the tree?
+
+Ans: 3
+
+4.How many compares (key compares) does it take when we call get(8) method ?
+
+Ans: 2
+
+
+Learning by doing-1
+Suppose that a certain BST has keys that are integers between 1 and 10, and we search for 5. Which sequence below cannot be the sequence of keys examined? Why?
+a. 10, 9, 8, 7, 6, 5 
+b. 4, 10, 8, 7, 3, 5
+c. 1, 10, 2, 9, 3, 8, 4, 7, 6, 5 
+d. 2, 7, 3, 8, 4, 5 
+e. 1, 2, 10, 4, 8, 5
+
+Ans: b & d
