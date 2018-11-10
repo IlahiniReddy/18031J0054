@@ -31,21 +31,57 @@ Blanks-2:
 After Inserting elements 1, 32, 22, 15, 33, 45, 66, 73, 10. 
 How many collisions occur when you hashCode() as key % size after inserting keys into hashtable for given sizes below.
 
+
 1.Size = 7 
 
-Ans: 5 collisions
+Ans:  
+Index        Keys
+0                  
+1            1,22,15
+2
+3            45,66,73,10
+4             32
+5             33
+6
+      5 collisions
 
 2.Size = 8
-
-Ans: 3 collisions
+Ans: 
+Index   Keys
+0        32 
+1        1,33,73
+2        66,10        
+3        
+4
+5        45
+6        22
+7        15
+   3 collisions
 
 3.Size = 12
 
-Ans: 3 collisions
+Ans: 
+Index  Keys
+0      
+1      1,73
+2
+3
+4
+5       15
+6       66
+7       
+8       32
+9       33,45
+10      22,10
+11
+   3 collisions
 
 4.Size = 1
 
-Ans: 8 collisions
+Ans: 
+Index  Keys
+0      1,32,22,15,33,45,66,73,10      
+   8 collisions
 
 
 Blanks-3:
@@ -67,17 +103,17 @@ Ans: False
 3.How many empty lists do you expect to see when you insert keys 1, 2, 3, 4, 5, 6 into a hash table with Separate Chaining Hashing with hashCode as key % size , 
 for size = 2 without any resizing?
 
-Ans: There are no empty lists.
+Ans: (1,0,1,0,1,0)There are no empty lists.
 
 4.How many empty lists do you expect to see when you insert keys 2, 22, 32, 42, 52 into a hash table with Separate Chaining Hashing with hashCode as key % size ,
  for size = 10 without any resizing?
 
-Ans: 9 empty lists.
+Ans: (2,2,2,2,2)9 empty lists.
 
 5.How many empty lists do you expect to see when you insert keys 15, 30, 45, 60, 75 into a hash table with Separate Chaining Hashing with hashCode as key % size ,
  for size = 15 without any resizing?
 
-Ans: 14 empty lists.
+Ans: (0,0,0,0,0)14 empty lists.
 
 
 
